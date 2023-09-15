@@ -51,9 +51,8 @@ function Circle(radius) {
     this.radius = radius;
 }
 
-const circle1 = new Circle(3);
-const circumference = 2 * Math.PI * circle1.radius;
-console.log(`Circumference: ${circumference.toFixed(2)}`);
+const circle1 = new Circle(3)
+console.log(`Circumference: ${(2 * Math.PI * circle1.radius).toFixed(2)}`);
 
 // Exercise 7
 function Student(name, grade) {
