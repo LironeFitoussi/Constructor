@@ -74,12 +74,12 @@ const fruit1 = new Fruit("Apple", "Red");
 console.log(`Name: ${fruit1.name}, Color: ${fruit1.color}`);
 
 // Exercise 9
-function Person(firstName, lastName) {
+function Person1(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
 }
 
-const person2 = new Person("John", "Doe");
+const person2 = new Person1("John", "Doe");
 console.log(`Full Name: ${person2.firstName} ${person2.lastName}`);
 
 // Exercise 10
