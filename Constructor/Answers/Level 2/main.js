@@ -149,8 +149,52 @@ product2.getTotalPrice()
 
 
 // Exercise 10 
-function Animal(species) {
-    this.species = species;
+function Animal(name, species) {
+    this.name = name,
+    this.species = species,
+    this.makeSound = () => {
+        console.log(`${this.name} made Woof!`); 
+    }
 }
+
+const newAnimal1 = new Animal("Toffee", "Dog")
+newAnimal1.makeSound()
+
+
+
+// Exercise 11 
+function Animal(name, species) {
+    this.name = name,
+    this.species = species,
+    this.makeSound = () => {
+        switch (this.species) {
+            case "Dog":
+                console.log(`${this.name} made Woof!`);
+                break;
+            case "Cat":
+                console.log(`${this.name} made Meow!`);
+                break;
+            case "Lion":
+                console.log(`${this.name} made Roar!`);
+            break;
+            default:
+                console.log(`${this.name} made Sound!`);
+                break;
+        } 
+    }
+}
+
+const newAnimal2 = new Animal("Ronald", "Dog")
+const newAnimal3 = new Animal("Mitzi", "Cat")
+const newAnimal4 = new Animal("Simba", "Lion")
+const newAnimal5 = new Animal("Tom", "Mouse")
+
+
+newAnimal2.makeSound()
+newAnimal3.makeSound()
+newAnimal4.makeSound()
+newAnimal5.makeSound()
+
+
 
 
