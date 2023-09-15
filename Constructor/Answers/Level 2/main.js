@@ -128,7 +128,24 @@ myTask.updateDescription("New task description")
 console.log(myTask.description);
 
 // Exercise 9
+function Product(name, price, discount, quantity) {
+    this.name = name,
+    this.price = price,
+    this.quantity = quantity
+    this.discount = discount,
+    this.getDiscountedPrice = () => {
+        this.price = this.price * ((100-this.discount)/100)
+        console.log(`Discounted Price: $${product1.price}`);
+    }
 
+    this.getTotalPrice = () => {
+        console.log(`Total Price: $${this.price * this.quantity}`);
+        return this.price * this.quantity
+    }
+}
+
+const product2 = new Product("Apple", 5, 0, 30)
+product2.getTotalPrice()
 
 
 
