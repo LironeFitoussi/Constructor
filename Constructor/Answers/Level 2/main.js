@@ -13,11 +13,11 @@ person1.sayHello();
 // Exercise 2
 function Calculator() {
     this.add = function (a, b) {
-        return a + b;
+        return `Addition: ${a + b}`;
     };
 
     this.subtract = function (a, b) {
-        return a - b
+        return `Subtraction: ${a - b}`;
     }
 } 
 
@@ -26,23 +26,19 @@ console.log(calculator.add(5, 10));
 console.log(calculator.subtract(10, 5));
 
 // Exercise 3
-function BankAccount() {
-    this.balance = 0;
+function BankAccount(balance) {
+    this.balance = balance;
     this.deposit = function (amount) {
         this.balance += amount;
     };
-    this.withdrawal = function (amount) {
-        this.balance -= amount;
-    }
+
     this.diaplayBalance = function() {
         console.log(`Your Balance is: ${this.balance}$`);
     }
 }
 
-const account = new BankAccount();
+const account = new BankAccount(0);
 account.deposit(500);
-account.diaplayBalance()
-account.withdrawal(250)
 account.diaplayBalance()
 
 // Exercise 4
@@ -76,5 +72,38 @@ function Product(name, price, discount) {
 const product1 = new Product("Hat", 50, 10)
 product1.getDiscountedPrice()
 
+// Exercise 6
+function Calculator() {
+    this.add = function (a, b) {
+        return `Addition: ${a + b}`;
+    };
+
+    this.subtract = function (a, b) {
+        return `Subtraction: ${a - b}`;
+    }
+    
+    this.multiply = function (a,b) {
+        return `Multiplication: ${a * b}`
+    }
+}   
+
+console.log(calculator.multiply(3, 4));
+
+// Exercise 7 
+function BankAccount() {
+    this.balance = 0;
+    this.deposit = function (amount) {
+        this.balance += amount;
+    };
+    this.withdrawal = function (amount) {
+        this.balance -= amount;
+    }
+    this.diaplayBalance = function() {
+        console.log(`Your Balance is: ${this.balance}$`);
+    }
+}
+
+account.withdrawal(200)
+account.diaplayBalance()
 
 
