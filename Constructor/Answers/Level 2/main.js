@@ -62,6 +62,19 @@ todoItem.status()
 todoItem.complete();
 todoItem.status()
 
+// Exercise 5
+function Product(name, price, discount) {
+    this.name = name,
+    this.price = price,
+    this.discount = discount,
+    this.getDiscountedPrice = function () {
+        this.price = this.price * ((100-this.discount)/100)
+        console.log(`Discounted Price: $${product1.price}`);
+    }
+}
+
+const product1 = new Product("Hat", 50, 10)
+product1.getDiscountedPrice()
 
 
 
