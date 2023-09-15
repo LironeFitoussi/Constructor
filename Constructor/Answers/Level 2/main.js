@@ -148,4 +148,9 @@ const product2 = new Product("Apple", 5, 0, 30)
 product2.getTotalPrice()
 
 
+// Exercise 10 
+function Animal(species) {
+    this.species = species;
+}
+
 
