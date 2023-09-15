@@ -46,4 +46,22 @@ account.withdrawal(250)
 account.diaplayBalance()
 
 // Exercise 4
+function Todo(description) {
+    this.description = description;
+    this.isCompleted = false;
+    this.complete = function() {
+        this.isCompleted = true;
+    };
+    this.status = function () {
+        console.log(`Status: ${todoItem.isCompleted ? 'Completed' : 'Incomplete'}`);
+    }
+}
+
+const todoItem = new Todo("Buy groceries");
+todoItem.status()
+todoItem.complete();
+todoItem.status()
+
+
+
 
