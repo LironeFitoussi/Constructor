@@ -106,4 +106,29 @@ function BankAccount() {
 account.withdrawal(200)
 account.diaplayBalance()
 
+// Exercise 8
+function Todo(description) {
+    this.description = description;
+    this.isCompleted = false;
+    this.complete = function() {
+        this.isCompleted = true;
+    };
+    this.status = function () {
+        console.log(`Status: ${todoItem.isCompleted ? 'Completed' : 'Incomplete'}`);
+    }
+    this.updateDescription = function (updateDescription) {
+        this.description = updateDescription 
+        console.log(`Updated Description: ${this.description}`); 
+    }
+}
+
+const myTask = new Todo("Buy Milk")
+console.log(myTask.description);
+myTask.updateDescription("New task description")
+console.log(myTask.description);
+
+// Exercise 9
+
+
+
 
