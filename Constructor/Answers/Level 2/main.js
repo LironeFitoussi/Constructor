@@ -44,3 +44,6 @@ account.deposit(500);
 account.diaplayBalance()
 account.withdrawal(250)
 account.diaplayBalance()
+
+// Exercise 4
+
