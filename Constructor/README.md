@@ -23,6 +23,7 @@ https://www.freecodecamp.org/news/a-beginners-guide-to-javascripts-prototype/
 https://www.youtube.com/watch?v=XskMWBXNbp0&t=279s
 00:00 - 04:38
 
+https://www.youtube.com/watch?v=583MGxjypgU&t=154s
 
 
 
