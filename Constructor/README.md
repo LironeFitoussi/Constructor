@@ -17,8 +17,8 @@ https://www.youtube.com/watch?v=QDgDHWw5QDg
 *Level 3 - Using Object.create()*
 // Resources: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
-
 https://www.programiz.com/javascript/library/object/create
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
 // Tutorial
 https://www.youtube.com/watch?v=XskMWBXNbp0&t=279s
@@ -32,6 +32,9 @@ https://www.freecodecamp.org/news/a-beginners-guide-to-javascripts-prototype/
 // Tutorial
 https://www.youtube.com/watch?v=583MGxjypgU&t=154s
 Full Video
+
+https://www.youtube.com/watch?v=XskMWBXNbp0&t=279s
+08:38 - 18:09
 
 
 Exercises:
