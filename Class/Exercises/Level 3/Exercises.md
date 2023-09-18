@@ -13,8 +13,3 @@
 
 7. **Factorial Calculator:** Write a static method `calculateFactorial` that computes the factorial of a given non-negative integer.
 
-8. **Unique Values in Array:** Implement a static method `getUniqueValues` that takes an array and returns an array containing only the unique values (removing duplicates).
-
-9. **Temperature Converter:** Create a `TemperatureConverter` class with static methods for converting between Celsius and Fahrenheit. Write methods like `celsiusToFahrenheit` and `fahrenheitToCelsius`.
-
-10. **URL Parser:** Write a static method `parseUrl` that takes a URL as input and returns an object containing the parsed components (e.g., protocol, domain, path, query parameters).
