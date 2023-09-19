@@ -126,9 +126,9 @@
 
 *Filter out all elements that are not boolean values.*
 
-`
+```
 const mixedArray19 = [true, 42, false, "JavaScript", null];
-`
+```
 
 **Exercise 20**
 
