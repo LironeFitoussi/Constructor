@@ -106,40 +106,40 @@
 *Filter out objects that do not have a "price" property.*
 
 
-```const products16 = [{ name: "Apple", price: 0.99 },{ name: "Banana" },{ name: "Cherry", price: 2.49 },{ price: 1.25 },];```
+`const products16 = [{ name: "Apple", price: 0.99 },{ name: "Banana" },{ name: "Cherry", price: 2.49 },{ price: 1.25 },];`
 
 
 **Exercise 17**
 
 *Filter out elements that are not divisible by 4 from the array.*
 
-```const numbers17 = [16, 10, 7, 24, 35, 12];```
+`const numbers17 = [16, 10, 7, 24, 35, 12];`
 
 
 **Exercise 18**
 
 *Filter out names that contain the letter 'a'.*
 
-```const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];```
+`const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];`
 
 **Exercise 19**
 
 *Filter out all elements that are not boolean values.*
 
-```const mixedArray19 = [true, 42, false, "JavaScript", null];```
+`const mixedArray19 = [true, 42, false, "JavaScript", null];`
 
 **Exercise 20**
 
 *Filter out objects with a "quantity" property less than 10.*
 
-```
+`
 const products20 = [
   { name: "Apple", quantity: 5 },
   { name: "Banana", quantity: 15 },
   { name: "Cherry", quantity: 8 },
   { name: "Date" },
 ];
-```
+`
 ---
 
 *Here are the expected outputs for each exercise:*
