@@ -31,3 +31,15 @@ let people5 = [
 ];
 people5 = people5.filter((person) => person.age > 25)
 console.log( {people5} );
+
+// Exercise 6
+let numbers6 = [30, 65, 12, 80, 45, 55];
+numbers6 = numbers6.filter((number) => number > 50)
+console.log(numbers6);
+
+// Exercise 7
+let words7 = ["apple", "banana", "cherry", "date", "elderberry"];
+words7 = words7.filter((fruit) => fruit.length <= 5)
+console.log(words7);
+
+// Exercise 8
