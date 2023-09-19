@@ -90,34 +90,55 @@ const people13 = [
   { name: "Charlie", age: 55 },
   { name: "David", age: 30 },
 ];
-const peopleUnder40 = people13.filter((person) => person.age <= 40)
-console.log( {peopleUnder40} );
+const peopleUnder40 = people13.filter((person) => person.age <= 40);
+console.log({ peopleUnder40 });
 
-// Exercise 14  
+// Exercise 14
 const numbers14 = [14, 21, 32, 49, 55, 63];
-const multiplesOf7 = numbers14.filter(num => num % 7 === 0);
+const multiplesOf7 = numbers14.filter((num) => num % 7 === 0);
 console.log(multiplesOf7);
 
 // Exercise 15
 const words15 = ["apple", "Kiwi", "Lime", "date", "index"];
-const stringsWithoutI = words15.filter(fruit => !fruit.includes("i"))
+const stringsWithoutI = words15.filter((fruit) => !fruit.includes("i"));
 console.log(stringsWithoutI);
 
 // Exercise 16
 const products16 = [
-    { name: "Apple", price: 0.99 },
-    { name: "Banana" },
-    { name: "Cherry", price: 2.49 },
-    { price: 1.25 },
-  ];
+  { name: "Apple", price: 0.99 },
+  { name: "Banana" },
+  { name: "Cherry", price: 2.49 },
+  { price: 1.25 },
+];
 
-const productsWithPrice = products16.filter(prod => prod.hasOwnProperty("price"))
-console.log({productsWithPrice});
+const productsWithPrice = products16.filter((prod) =>
+  prod.hasOwnProperty("price")
+);
+console.log({ productsWithPrice });
 
 // Exercise 17
 const numbers17 = [16, 10, 7, 24, 35, 12];
-const multiplesOf4 = numbers17.filter(num => num % 4 ===0)
+const multiplesOf4 = numbers17.filter((num) => num % 4 === 0);
 console.log(multiplesOf4);
 
 // Exercise 18
 const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
+const namesWithoutA2 = names18.filter((name) => !name.includes(`a`));
+console.log(namesWithoutA2);
+
+// Exercise 19
+const mixedArray19 = [true, 42, false, "JavaScript", null];
+const booleansOnly = mixedArray19.filter(
+  (item) => item === true || item === false
+);
+console.log({ booleansOnly });
+
+// Exercise 20
+const products20 = [
+  { name: "Apple", quantity: 5 },
+  { name: "Banana", quantity: 15 },
+  { name: "Cherry", quantity: 8 },
+  { name: "Date" },
+];
+const productsWithQuantityGreaterThan10 = products20.filter(item => item.quantity > 10)
+console.log(productsWithQuantityGreaterThan10);

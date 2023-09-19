@@ -249,7 +249,7 @@ const products20 = [
 > [16, 24, 12]
 
 **Exercise 18 (namesWithoutA2):**
-> ["Eve", "Noah"]
+> ["Bob" ,"Eve"]
 
 **Exercise 19 (booleansOnly):**
 > [true, false]
