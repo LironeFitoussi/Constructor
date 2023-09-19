@@ -1,5 +1,3 @@
-## Exercises
-
 ### HTML, CSS, and JavaScript Basics
 
 1. **Question:** What are the prerequisites for studying jQuery?
@@ -44,32 +42,9 @@
 12. **Question:** How does jQuery contribute to efficient coding and productivity?
     - **Answer:** jQuery's concise syntax and method chaining enable developers to write less code while achieving the desired functionality, enhancing productivity.
 
-### Practical Application
-
-13. **Question:** How would you select all `<p>` elements using jQuery?
-    - **Answer:** Use the `$('p')` selector in jQuery to select all `<p>` elements.
-
-14. **Question:** Provide an example of how to use a jQuery method to hide an element with the ID "myElement".
-    - **Answer:** `$('#myElement').hide();` will hide the element with the ID "myElement".
-
-15. **Question:** How can you handle a click event using jQuery for a button with the class "btn-click"?
-    - **Answer:** Use `$('.btn-click').click(function() { /* Your code here */ });` to handle the click event for elements with the class "btn-click".
-
-### Plugin and Community
-
-16. **Question:** What is the significance of jQuery plugins?
-    - **Answer:** jQuery plugins extend the library's functionality, allowing developers to add specific features or capabilities to their projects.
-
-17. **Question:** Where can you find jQuery plugins for various tasks?
-    - **Answer:** jQuery plugins can be found on the official [jQuery Plugin Registry](https://plugins.jquery.com/) and other community-driven repositories.
-
-18. **Question:** How can one contribute to the jQuery community?
-    - **Answer:** Contributions can include submitting bug reports, participating in discussions, contributing code, or creating and sharing jQuery plugins.
-
 ### Comparing JavaScript Libraries
-
-19. **Question:** What sets jQuery apart from other JavaScript libraries?
+13. **Question:** What sets jQuery apart from other JavaScript libraries?
     - **Answer:** jQuery is widely adopted and known for its versatility, ease of use, and extensive community support, making it stand out among other libraries.
 
-20. **Question:** Name another popular JavaScript library and briefly describe its use case.
+14. **Question:** Name another popular JavaScript library and briefly describe its use case.
     - **Answer:** Another popular JavaScript library is React, commonly used for building interactive user interfaces in web applications.
