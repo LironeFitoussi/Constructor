@@ -141,7 +141,7 @@ let numbers14 = [14, 21, 32, 49, 55, 63];
 *Filter out strings containing the letter 'i'.*
 
 ```
-let words15 = ["apple", "banana", "cherry", "date", "elderberry"];
+let words15 = ["apple", "Kiwi", "Lime", "date", "index"];
 ```
 
 **Exercise 16**

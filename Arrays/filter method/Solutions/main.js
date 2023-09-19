@@ -90,5 +90,15 @@ let people13 = [
   { name: "Charlie", age: 55 },
   { name: "David", age: 30 },
 ];
-people13 = people13.filter((person) => person.age <= 50)
-console.log( {people13} );
+peopleUnder40 = people13.filter((person) => person.age <= 40)
+console.log( {peopleUnder40} );
+
+// Exercise 14  
+let numbers14 = [14, 21, 32, 49, 55, 63];
+let multiplesOf7 = numbers14.filter(num => num % 7 === 0);
+console.log(multiplesOf7);
+
+// Exercise 15
+let words15 = ["apple", "Kiwi", "Lime", "date", "index"];
+stringsWithoutI = words15.filter(fruit => !fruit.includes("i"))
+console.log(stringsWithoutI);
