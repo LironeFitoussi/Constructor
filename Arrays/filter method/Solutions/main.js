@@ -111,4 +111,13 @@ const products16 = [
     { price: 1.25 },
   ];
 
-// const productsWithPrice = products16.filter()
+const productsWithPrice = products16.filter(prod => prod.hasOwnProperty("price"))
+console.log({productsWithPrice});
+
+// Exercise 17
+const numbers17 = [16, 10, 7, 24, 35, 12];
+const multiplesOf4 = numbers17.filter(num => num % 4 ===0)
+console.log(multiplesOf4);
+
+// Exercise 18
+const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
