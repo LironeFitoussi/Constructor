@@ -70,3 +70,8 @@ console.log( {objects9} );
 let numbers10 = [9, 12, 7, 18, 15, 22];
 numbers10 = numbers10.filter((num) => num % 3 === 0)
 console.log(numbers10);
+
+// Exercise 11
+let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
+names11 = names11.filter((name) => !name.includes("o"))
+console.log(names11);

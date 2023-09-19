@@ -102,6 +102,9 @@ let numbers10 = [9, 12, 7, 18, 15, 22];
 ```
 let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 ```
+[/Resources/]
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 **Exercise 12**
 
