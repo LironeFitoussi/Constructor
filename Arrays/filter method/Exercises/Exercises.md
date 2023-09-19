@@ -118,14 +118,7 @@ const mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
 
 *Filter out objects with age greater than or equal to 40.*
 
-```
-const people13 = [
-  { name: "Alice", age: 35 },
-  { name: "Bob", age: 42 },
-  { name: "Charlie", age: 55 },
-  { name: "David", age: 30 },
-];
-```
+`const people13 = [{ name: "Alice", age: 35 },{ name: "Bob", age: 42 },{ name: "Charlie", age: 55 },{ name: "David", age: 30 },];`
 
 **Exercise 14**
 
