@@ -8,14 +8,14 @@ let numbers1 = [1, 2, 3, 4, 5, 6];
 
 **Exercise 2**
 
+[/Resources/]
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+
 *Filter out names from the array that start with the letter 'A'.*
 ```
 let names2 = ["Alice", "Bob", "Charlie", "David", "Eve"];
 ```
-
-[/Resources/]
-
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
 
 **Exercise 3**
 
