@@ -194,79 +194,60 @@ let products20 = [
 *Here are the expected outputs for each exercise:*
 
 **Exercise 1 (evenNumbers):**
-
 > [2, 4, 6]
 
 **Exercise 2 (namesWithoutA):**
-
 > ["Bob", "David", "Eve"]
 
 **Exercise 3 (nonNegativeNumbers):**
-
 > [2, 10, 3]
 
 **Exercise 4 (stringsOnly):**
-
 > ["Hello", "World"]
 
 **Exercise 5 (peopleAgedOver25):**
-
 > [{ name: "Charlie", age: 30 }]
 
 **Exercise 6 (numbersGreaterThan50):**
-
 > [65, 80, 55]
 
 **Exercise 7 (shortWords):**
-
 > ["apple", "date"]
 
 **Exercise 8 (primeNumbers):**
-
 > [2, 5, 13]
 
 **Exercise 9 (objectsWithName):**
-
 >[{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }, { name: "David" }]
 
 **Exercise 10 (divisibleBy3):**
-
 > [9, 12, 18, 15]
 
 **Exercise 11 (namesWithoutO):**
-
 > ["Bob", "Eve"]
 
 **Exercise 12 (lowercaseStrings):**
-
 > ["world"]
 
 **Exercise 13 (peopleUnder40):**
-
 > [{ name: "Alice", age: 35 }, { name: "David", age: 30 }]
 
 **Exercise 14 (multiplesOf7):**
-
 > [14, 21, 49, 63]
 
 **Exercise 15 (stringsWithoutI):**
-
 > ["apple", "date"]
 
 **Exercise 16 (productsWithPrice):**
-
 > [{ name: "Apple", price: 0.99 }, { name: "Cherry", price: 2.49 }]
 
 **Exercise 17 (multiplesOf4):**
-
 > [16, 24, 12]
 
 **Exercise 18 (namesWithoutA2):**
-
 > ["Eve", "Noah"]
 
 **Exercise 19 (booleansOnly):**
-
 > [true, false]
 
 **Exercise 20 (productsWithQuantityGreaterThan10):**
