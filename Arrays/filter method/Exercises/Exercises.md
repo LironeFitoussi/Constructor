@@ -270,7 +270,4 @@ let products20 = [
 > [true, false]
 
 **Exercise 20 (productsWithQuantityGreaterThan10):**
-
 > [{ name: "Banana", quantity: 15 }]
-
-These are the arrays or objects that you would get as output after applying the `.filter()` method to the corresponding input arrays.
