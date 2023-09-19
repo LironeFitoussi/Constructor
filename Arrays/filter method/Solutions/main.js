@@ -18,4 +18,8 @@ numbers3 = numbers3.filter((num) => num > 0)
 console.log(numbers3);
 
 // Exercise 4
+let mixedArray4 = [42, "Hello", true, 7, "World"];
+mixedArray4 = mixedArray4.filter((item) => typeof item == "string")
+console.log(mixedArray4);
 
+// Exercise 5
