@@ -214,97 +214,83 @@ let products20 = [
 
 
 **Exercise 5 (peopleAgedOver25):**
-```
-[
-  { name: "Charlie", age: 30 }
-]
-```
+
+> [{ name: "Charlie", age: 30 }]
+
 
 **Exercise 6 (numbersGreaterThan50):**
-```
-[65, 80, 55]
-```
+
+> [65, 80, 55]
+
 
 **Exercise 7 (shortWords):**
-```
+
 ["apple", "date"]
-```
+
 
 **Exercise 8 (primeNumbers):**
-```
+
 [2, 5, 13]
-```
+
 
 **Exercise 9 (objectsWithName):**
-```
+
 [
   { name: "Alice", age: 25 },
   { name: "Charlie", age: 30 },
   { name: "David" }
 ]
-```
+
 
 **Exercise 10 (divisibleBy3):**
-```
+
 [9, 12, 18, 15]
-```
+
 
 **Exercise 11 (namesWithoutO):**
-```
+
 ["Bob", "Eve"]
-```
+
 
 **Exercise 12 (lowercaseStrings):**
-```
+
 ["world"]
-```
+
 
 **Exercise 13 (peopleUnder40):**
-```
-[
-  { name: "Alice", age: 35 },
-  { name: "David", age: 30 }
-]
-```
+
+> [
+>  { name: "Alice", age: 35 },
+>  { name: "David", age: 30 }
+> ]
+
 
 **Exercise 14 (multiplesOf7):**
-```
-[14, 21, 49, 63]
-```
+
+> [14, 21, 49, 63]
 
 **Exercise 15 (stringsWithoutI):**
-```
-["apple", "date"]
-```
+
+> ["apple", "date"]
 
 **Exercise 16 (productsWithPrice):**
-```
-[
-  { name: "Apple", price: 0.99 },
-  { name: "Cherry", price: 2.49 }
-]
-```
+
+> [{ name: "Apple", price: 0.99 }, { name: "Cherry", price: 2.49 }]
 
 **Exercise 17 (multiplesOf4):**
-```
-[16, 24, 12]
-```
+
+> [16, 24, 12]
 
 **Exercise 18 (namesWithoutA2):**
-```
-["Eve", "Noah"]
-```
+
+> ["Eve", "Noah"]
 
 **Exercise 19 (booleansOnly):**
-```
-[true, false]
-```
+
+> [true, false]
 
 **Exercise 20 (productsWithQuantityGreaterThan10):**
-```
-[
-  { name: "Banana", quantity: 15 }
-]
-```
+
+> [{ name: "Banana", quantity: 15 }]
 
 These are the arrays or objects that you would get as output after applying the `.filter()` method to the corresponding input arrays.
