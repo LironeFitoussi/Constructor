@@ -197,73 +197,53 @@ let products20 = [
 
 > [2, 4, 6]
 
-
 **Exercise 2 (namesWithoutA):**
 
 > ["Bob", "David", "Eve"]
-
 
 **Exercise 3 (nonNegativeNumbers):**
 
 > [2, 10, 3]
 
-
 **Exercise 4 (stringsOnly):**
 
 > ["Hello", "World"]
-
 
 **Exercise 5 (peopleAgedOver25):**
 
 > [{ name: "Charlie", age: 30 }]
 
-
 **Exercise 6 (numbersGreaterThan50):**
 
 > [65, 80, 55]
 
-
 **Exercise 7 (shortWords):**
 
-["apple", "date"]
-
+> ["apple", "date"]
 
 **Exercise 8 (primeNumbers):**
 
-[2, 5, 13]
-
+> [2, 5, 13]
 
 **Exercise 9 (objectsWithName):**
 
-[
-  { name: "Alice", age: 25 },
-  { name: "Charlie", age: 30 },
-  { name: "David" }
-]
-
+>[{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }, { name: "David" }]
 
 **Exercise 10 (divisibleBy3):**
 
-[9, 12, 18, 15]
-
+> [9, 12, 18, 15]
 
 **Exercise 11 (namesWithoutO):**
 
-["Bob", "Eve"]
-
+> ["Bob", "Eve"]
 
 **Exercise 12 (lowercaseStrings):**
 
-["world"]
-
+> ["world"]
 
 **Exercise 13 (peopleUnder40):**
 
-> [
->  { name: "Alice", age: 35 },
->  { name: "David", age: 30 }
-> ]
-
+> [{ name: "Alice", age: 35 }, { name: "David", age: 30 }]
 
 **Exercise 14 (multiplesOf7):**
 
