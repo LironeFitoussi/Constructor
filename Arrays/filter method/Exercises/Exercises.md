@@ -72,6 +72,10 @@ let numbers8 = [2, 4, 5, 9, 10, 13];
 
 **Exercise 9**
 
+[/Resources/]
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
 *Filter out objects that do not have a "name" property.*
 
 ```
@@ -83,10 +87,6 @@ let objects9 = [
 ];
 ```
 
-[/Resources/]
-
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
-
 **Exercise 10**
 
 *Filter out elements that are not divisible by 3 from the array.*
@@ -97,14 +97,15 @@ let numbers10 = [9, 12, 7, 18, 15, 22];
 
 **Exercise 11**
 
+[/Resources/]
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+
 *Filter out names that contain the letter 'o'.*
 
 ```
 let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 ```
-[/Resources/]
-
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 **Exercise 12**
 
