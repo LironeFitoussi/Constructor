@@ -43,3 +43,15 @@ words7 = words7.filter((fruit) => fruit.length <= 5)
 console.log(words7);
 
 // Exercise 8
+let numbers8 = [2, 4, 5, 9, 10, 13];
+numbers8 = numbers8.filter((num) => {
+        if (num < 2) return false;
+        for (let i = 2; i < num; i++) {
+            if(num % i === 0){
+                return false
+            }
+        }
+        return true
+    }
+)
+console.log(numbers8);
