@@ -132,46 +132,34 @@ const people13 = [
 
 *Filter out elements that are not multiples of 7 from the array.*
 
-```
-const numbers14 = [14, 21, 32, 49, 55, 63];
-```
+```const numbers14 = [14, 21, 32, 49, 55, 63];```
 
 **Exercise 15**
 
 *Filter out strings containing the letter 'i'.*
 
-```
-const words15 = ["apple", "Kiwi", "Lime", "date", "index"];
-```
+```const words15 = ["apple", "Kiwi", "Lime", "date", "index"];```
 
 **Exercise 16**
 
 *Filter out objects that do not have a "price" property.*
 
-```
-const products16 = [
-  { name: "Apple", price: 0.99 },
-  { name: "Banana" },
-  { name: "Cherry", price: 2.49 },
-  { price: 1.25 },
-];
-```
+
+```const products16 = [{ name: "Apple", price: 0.99 },{ name: "Banana" },{ name: "Cherry", price: 2.49 },{ price: 1.25 },];```
+
 
 **Exercise 17**
 
 *Filter out elements that are not divisible by 4 from the array.*
 
-```
-const numbers17 = [16, 10, 7, 24, 35, 12];
-```
+```const numbers17 = [16, 10, 7, 24, 35, 12];```
+
 
 **Exercise 18**
 
 *Filter out names that contain the letter 'a'.*
 
-```
-const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
-```
+```const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];```
 
 **Exercise 19**
 
