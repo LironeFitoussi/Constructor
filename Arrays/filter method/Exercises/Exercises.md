@@ -92,7 +92,7 @@ let objects9 = [
 *Filter out elements that are not divisible by 3 from the array.*
 
 ```
-let numbers10 = [9, 12, 7, 18, 15, 22];
+const numbers10 = [9, 12, 7, 18, 15, 22];
 ```
 
 **Exercise 11**
@@ -104,7 +104,7 @@ let numbers10 = [9, 12, 7, 18, 15, 22];
 *Filter out names that contain the letter 'o'.*
 
 ```
-let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
+const names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 ```
 
 **Exercise 12**
@@ -112,7 +112,7 @@ let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 *Filter out all uppercase strings from the array.*
 
 ```
-let mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
+const mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
 ```
 
 **Exercise 13**
@@ -120,7 +120,7 @@ let mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
 *Filter out objects with age greater than or equal to 40.*
 
 ```
-let people13 = [
+const people13 = [
   { name: "Alice", age: 35 },
   { name: "Bob", age: 42 },
   { name: "Charlie", age: 55 },
@@ -133,7 +133,7 @@ let people13 = [
 *Filter out elements that are not multiples of 7 from the array.*
 
 ```
-let numbers14 = [14, 21, 32, 49, 55, 63];
+const numbers14 = [14, 21, 32, 49, 55, 63];
 ```
 
 **Exercise 15**
@@ -141,7 +141,7 @@ let numbers14 = [14, 21, 32, 49, 55, 63];
 *Filter out strings containing the letter 'i'.*
 
 ```
-let words15 = ["apple", "Kiwi", "Lime", "date", "index"];
+const words15 = ["apple", "Kiwi", "Lime", "date", "index"];
 ```
 
 **Exercise 16**
@@ -149,7 +149,7 @@ let words15 = ["apple", "Kiwi", "Lime", "date", "index"];
 *Filter out objects that do not have a "price" property.*
 
 ```
-let products16 = [
+const products16 = [
   { name: "Apple", price: 0.99 },
   { name: "Banana" },
   { name: "Cherry", price: 2.49 },
@@ -162,7 +162,7 @@ let products16 = [
 *Filter out elements that are not divisible by 4 from the array.*
 
 ```
-let numbers17 = [16, 10, 7, 24, 35, 12];
+const numbers17 = [16, 10, 7, 24, 35, 12];
 ```
 
 **Exercise 18**
@@ -170,7 +170,7 @@ let numbers17 = [16, 10, 7, 24, 35, 12];
 *Filter out names that contain the letter 'a'.*
 
 ```
-let names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
+const names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 ```
 
 **Exercise 19**
@@ -178,7 +178,7 @@ let names18 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 *Filter out all elements that are not boolean values.*
 
 ```
-let mixedArray19 = [true, 42, false, "JavaScript", null];
+const mixedArray19 = [true, 42, false, "JavaScript", null];
 ```
 
 **Exercise 20**
@@ -186,7 +186,7 @@ let mixedArray19 = [true, 42, false, "JavaScript", null];
 *Filter out objects with a "quantity" property less than 10.*
 
 ```
-let products20 = [
+const products20 = [
   { name: "Apple", quantity: 5 },
   { name: "Banana", quantity: 15 },
   { name: "Cherry", quantity: 8 },
@@ -197,31 +197,31 @@ let products20 = [
 
 *Here are the expected outputs for each exercise:*
 
-**Exercise 1 (evenNumbers):**
+**Exercise 1 (numbers1):**
 > [2, 4, 6]
 
-**Exercise 2 (namesWithoutA):**
+**Exercise 2 (names2):**
 > ["Bob", "David", "Eve"]
 
-**Exercise 3 (nonNegativeNumbers):**
+**Exercise 3 (numbers3):**
 > [2, 10, 3]
 
-**Exercise 4 (stringsOnly):**
+**Exercise 4 (mixedArray4):**
 > ["Hello", "World"]
 
-**Exercise 5 (peopleAgedOver25):**
+**Exercise 5 (people5):**
 > [{ name: "Charlie", age: 30 }]
 
-**Exercise 6 (numbersGreaterThan50):**
+**Exercise 6 (numbers6):**
 > [65, 80, 55]
 
-**Exercise 7 (shortWords):**
+**Exercise 7 (words7):**
 > ["apple", "date"]
 
-**Exercise 8 (primeNumbers):**
+**Exercise 8 (numbers8):**
 > [2, 5, 13]
 
-**Exercise 9 (objectsWithName):**
+**Exercise 9 (objects9):**
 >[{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }, { name: "David" }]
 
 **Exercise 10 (divisibleBy3):**

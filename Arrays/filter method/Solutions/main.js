@@ -67,38 +67,48 @@ objects9 = objects9.filter((person) => person.hasOwnProperty(`name`));
 console.log({ objects9 });
 
 // Exercise 10
-let numbers10 = [9, 12, 7, 18, 15, 22];
-numbers10 = numbers10.filter((num) => num % 3 === 0);
-console.log(numbers10);
+const numbers10 = [9, 12, 7, 18, 15, 22];
+const divisibleBy3 = numbers10.filter((num) => num % 3 === 0);
+console.log(divisibleBy3);
 
 // Exercise 11
-let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
-names11 = names11.filter((name) => !name.includes("o"));
+const names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
+const namesWithoutO = names11.filter((name) => !name.includes("o"));
 console.log(names11);
 
 // Exercise 12
-let mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
-mixedArray12 = mixedArray12.filter(
+const mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
+const lowercaseStrings = mixedArray12.filter(
   (item) => typeof item === "string" && item === item.toLowerCase()
 );
 console.log(mixedArray12);
 
 // Exercise 13
-let people13 = [
+const people13 = [
   { name: "Alice", age: 35 },
   { name: "Bob", age: 42 },
   { name: "Charlie", age: 55 },
   { name: "David", age: 30 },
 ];
-peopleUnder40 = people13.filter((person) => person.age <= 40)
+const peopleUnder40 = people13.filter((person) => person.age <= 40)
 console.log( {peopleUnder40} );
 
 // Exercise 14  
-let numbers14 = [14, 21, 32, 49, 55, 63];
-let multiplesOf7 = numbers14.filter(num => num % 7 === 0);
+const numbers14 = [14, 21, 32, 49, 55, 63];
+const multiplesOf7 = numbers14.filter(num => num % 7 === 0);
 console.log(multiplesOf7);
 
 // Exercise 15
-let words15 = ["apple", "Kiwi", "Lime", "date", "index"];
-stringsWithoutI = words15.filter(fruit => !fruit.includes("i"))
+const words15 = ["apple", "Kiwi", "Lime", "date", "index"];
+const stringsWithoutI = words15.filter(fruit => !fruit.includes("i"))
 console.log(stringsWithoutI);
+
+// Exercise 16
+const products16 = [
+    { name: "Apple", price: 0.99 },
+    { name: "Banana" },
+    { name: "Cherry", price: 2.49 },
+    { price: 1.25 },
+  ];
+
+// const productsWithPrice = products16.filter()
