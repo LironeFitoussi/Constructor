@@ -1,5 +1,6 @@
-*// Exercise 1*
-// Use the .filter() method to filter out
+*Exercise 1*
+> Use the .filter() method to filter out
+
 even numbers from the given array.
 let numbers1 = [1, 2, 3, 4, 5, 6];
 
