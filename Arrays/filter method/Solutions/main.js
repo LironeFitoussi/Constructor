@@ -63,15 +63,32 @@ let objects9 = [
   { name: "David" },
 ];
 
-objects9 = objects9.filter((person) => person.hasOwnProperty(`name`))
-console.log( {objects9} );
+objects9 = objects9.filter((person) => person.hasOwnProperty(`name`));
+console.log({ objects9 });
 
 // Exercise 10
 let numbers10 = [9, 12, 7, 18, 15, 22];
-numbers10 = numbers10.filter((num) => num % 3 === 0)
+numbers10 = numbers10.filter((num) => num % 3 === 0);
 console.log(numbers10);
 
 // Exercise 11
 let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
-names11 = names11.filter((name) => !name.includes("o"))
+names11 = names11.filter((name) => !name.includes("o"));
 console.log(names11);
+
+// Exercise 12
+let mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
+mixedArray12 = mixedArray12.filter(
+  (item) => typeof item === "string" && item === item.toLowerCase()
+);
+console.log(mixedArray12);
+
+// Exercise 13
+let people13 = [
+  { name: "Alice", age: 35 },
+  { name: "Bob", age: 42 },
+  { name: "Charlie", age: 55 },
+  { name: "David", age: 30 },
+];
+people13 = people13.filter((person) => person.age <= 50)
+console.log( {people13} );

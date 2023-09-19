@@ -112,7 +112,7 @@ let names11 = ["Bob", "Eve", "Olivia", "Sophia", "Noah"];
 *Filter out all uppercase strings from the array.*
 
 ```
-let mixedArray12 = ["Hello", 42, "WORLD", "JavaScript", "FILTER"];
+let mixedArray12 = ["hello", 42, "WORLD", "javascript", "FILTER"];
 ```
 
 **Exercise 13**
@@ -228,10 +228,10 @@ let products20 = [
 > [9, 12, 18, 15]
 
 **Exercise 11 (namesWithoutO):**
-> ["Bob", "Eve"]
+> ["Eve", "Olivia"] 
 
 **Exercise 12 (lowercaseStrings):**
-> ["world"]
+> ["hello", "javascript"]
 
 **Exercise 13 (peopleUnder40):**
 > [{ name: "Alice", age: 35 }, { name: "David", age: 30 }]
