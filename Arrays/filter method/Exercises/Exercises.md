@@ -131,7 +131,7 @@ const people13 = [
 
 *Filter out elements that are not multiples of 7 from the array.*
 
-``const numbers14 = [14, 21, 32, 49, 55, 63];``
+`const numbers14 = [14, 21, 32, 49, 55, 63];`
 
 **Exercise 15**
 
