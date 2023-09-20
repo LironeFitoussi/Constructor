@@ -5,6 +5,7 @@ https://www.w3schools.com/js/js_object_constructors.asp
 
 // Tutorial:
 https://www.youtube.com/watch?v=QDgDHWw5QDg
+
 00:00 - 08:06
 
 *Level 2 - Using Methods*
@@ -14,6 +15,7 @@ https://www.w3schools.com/js/js_object_constructors.asp
 
 // Tutorial:
 https://www.youtube.com/watch?v=QDgDHWw5QDg
+
 08:06 - 12:17
 
 *Level 3 - Using Object.create()*
@@ -25,6 +27,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prot
 
 // Tutorial
 https://www.youtube.com/watch?v=XskMWBXNbp0&t=279s
+
 00:00 - 08:38
 
 *Level 4 - Prototype Introduction*
@@ -38,6 +41,7 @@ https://www.youtube.com/watch?v=583MGxjypgU&t=154s
 Full Video
 
 https://www.youtube.com/watch?v=XskMWBXNbp0&t=279s
+
 08:38 - 18:09
 
 
