@@ -130,3 +130,6 @@
 
 // Exercise 17 
 > Television {brand: "Samsung", screenSize: "55 Inch", resolution: "4k"}
+
+// Exercise 18 
+> Laptop {brand: "Lenovo", ramSize: "16gb"}
