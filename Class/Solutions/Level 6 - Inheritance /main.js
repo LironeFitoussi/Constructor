@@ -23,6 +23,7 @@ class Teacher extends Person {
         this.subject = subject;
     }
 }
+
 const teacher1 = new Teacher("Mr. Smith", 35, "Math");
 console.log(teacher1);
 
@@ -51,6 +52,7 @@ class Cat extends Animal {
         this.color = color
     }
 }
+
 const cat1 = new Cat("Fline", "Grey")
 console.log(cat1);
 
@@ -67,5 +69,16 @@ class Triangle extends Shape {
         super("Triangle", 3);
     }
 }
+
 const triangle1 = new Triangle();
 console.log(triangle1);
+
+// Exercise 6
+class Square extends Shape {
+    constructor() {
+        super("Square", 4)
+    }
+}
+
+const square1 = new Square()
+console.log(square1);

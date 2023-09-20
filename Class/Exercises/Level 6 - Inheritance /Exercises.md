@@ -77,3 +77,6 @@
 
 // Exercise 5
 > Triangle {name: "Triangle", sides: 3}
+
+// Exercise 6 
+> Square {name: "Square", sides: 4}
