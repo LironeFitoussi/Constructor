@@ -104,3 +104,6 @@
 
 // Exercise 14 
 > State {name: "California", capital: "Sacramento", stateCode: "CA"}
+
+// Exercise 15 
+> [Log] EBook {title: "Introduction to JavaScript", format: "PDF"} (main.js, line 214)

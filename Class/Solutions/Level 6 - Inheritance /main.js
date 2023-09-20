@@ -195,3 +195,20 @@ class State extends Country {
   
   const state1 = new State("California", "Sacramento", "CA");
   console.log(state1);
+
+// Exercise 15
+class Book {
+    constructor(title) {
+        this.title = title;
+    }
+}
+
+class EBook extends Book {
+    constructor(title, format) {
+        super(title);
+        this.format = format;
+    }
+}
+
+const ebook1 = new EBook("Introduction to JavaScript", "PDF");
+console.log(ebook1);
