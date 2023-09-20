@@ -22,3 +22,19 @@
 
 [/Tutorial/]:
 > https://www.youtube.com/watch?v=9TwYaSnb2GI
+
+*Fourth Step - Selectors*
+
+[/Resource/]:
+> https://www.w3schools.com/jquery/jquery_selectors.asp
+
+[/Tutorial/]:
+> https://www.youtube.com/watch?v=3nrLc_JOF7k&t=225s
+
+*Fifth Step - Events*
+
+[/Resource/]:
+> https://www.w3schools.com/jquery/jquery_events.asp
+
+[/Tutorial/]:
+> https://www.youtube.com/watch?v=VlWsJHsVb-E
