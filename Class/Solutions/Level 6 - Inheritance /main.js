@@ -1,5 +1,3 @@
-console.log("test");
-
 // Exercise 1
 class Person {
     constructor(name, age) {
