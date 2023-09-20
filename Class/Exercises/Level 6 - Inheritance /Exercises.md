@@ -68,3 +68,6 @@
 
 // Exercise 2
 > Teacher {name: "Mr. Smith", age: 35, subject: "Math"}
+
+// Exercise 3
+> Dog {species: "Canien", breed: "Golden Retriver", sound: "Woof"}

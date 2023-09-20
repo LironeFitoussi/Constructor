@@ -27,3 +27,19 @@ const teacher1 = new Teacher("Mr. Smith", 35, "Math");
 console.log(teacher1);
 
 // Exercise 3
+class Animal {
+    constructor(species) {
+        this.species = species;
+    }
+}
+
+class Dog extends Animal{
+    constructor(species, breed, sound) {
+        super(species);
+        this.breed = breed;
+        this.sound = sound;
+    }
+}
+
+const dog1 = new Dog("Canien", "Golden Retriver", "Woof")
+console.log(dog1);
