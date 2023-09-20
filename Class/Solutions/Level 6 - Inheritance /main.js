@@ -15,3 +15,15 @@ class Student extends Person {
 
 const student1 = new Student("John", 23, "S7485")
 console.log(student1);
+
+// Exercise 2
+class Teacher extends Person {
+    constructor(name, age, subject) {
+        super(name, age);
+        this.subject = subject;
+    }
+}
+const teacher1 = new Teacher("Mr. Smith", 35, "Math");
+console.log(teacher1);
+
+// Exercise 3

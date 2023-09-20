@@ -65,3 +65,6 @@
 
 // Exercise 1
 > Student {name: "John", age: 23, studentId: "S7485"}
+
+// Exercise 2
+> Teacher {name: "Mr. Smith", age: 35, subject: "Math"}
