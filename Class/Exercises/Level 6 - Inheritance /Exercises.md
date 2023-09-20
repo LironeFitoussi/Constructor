@@ -80,3 +80,9 @@
 
 // Exercise 6 
 > Square {name: "Square", sides: 4}
+
+// Exercise 7 
+> Car {make: "Tesla", model: "CyperTruck", year: 2021, color: "Silver"} 
+
+// Exercise 8
+> 

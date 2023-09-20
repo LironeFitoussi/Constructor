@@ -82,3 +82,24 @@ class Square extends Shape {
 
 const square1 = new Square()
 console.log(square1);
+
+// Exercise 7
+class Vehicle {
+    constructor(make, model) {
+        this.make = make;
+        this.model = model;
+    }
+}
+
+class Car extends Vehicle {
+    constructor(make, model, year, color) {
+        super(make, model)
+        this.year = year;
+        this.color = color;
+    }
+}
+
+const car1 = new Car("Tesla", "CyperTruck", 2021, "Silver")
+console.log(car1);
+
+// Exercise 8
