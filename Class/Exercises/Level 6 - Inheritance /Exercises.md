@@ -127,3 +127,6 @@
 
 // Exercise 16 
 > PaperbackBook {title: "The Catcher in the Rye", weight: "400 grams"}
+
+// Exercise 17 
+> Television {brand: "Samsung", screenSize: "55 Inch", resolution: "4k"}

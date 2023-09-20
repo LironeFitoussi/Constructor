@@ -223,3 +223,21 @@ class PaperbackBook extends Book {
 
 const paperback1 = new PaperbackBook("The Catcher in the Rye", "400 grams");
 console.log(paperback1);
+
+// Exercise 17
+class Electronics {
+    constructor(brand) {
+        this.brand = brand;
+    }
+}
+
+class Television extends Electronics {
+    constructor(brand, screenSize, resolution) {
+        super(brand)
+        this.screenSize = screenSize;
+        this.resolution = resolution;
+    }
+}
+
+const television1 = new Television("Samsung", "55 Inch", "4k")
+console.log(television1);
