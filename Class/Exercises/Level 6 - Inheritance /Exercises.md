@@ -60,3 +60,8 @@
 
 **Exercise 16**
 *Extend the Book class to create a PaperbackBook class with an additional*
+
+---
+
+// Exercise 1
+> Student {name: "John", age: 23, studentId: "S7485"}
