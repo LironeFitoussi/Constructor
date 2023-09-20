@@ -1,5 +1,7 @@
-##Exercise 1:
+**Exercise 1:**
+```
 Select and hide all paragraphs on the page.
+```
 
 Exercise 2:
 Select and show all images with the class "thumbnail."
