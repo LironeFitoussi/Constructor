@@ -133,3 +133,6 @@
 
 // Exercise 18 
 > Laptop {brand: "Lenovo", ramSize: "16gb"}
+
+// Exercise 19 
+> OfficeBuilding {name: "Tower A", numberOfFloors: 10}

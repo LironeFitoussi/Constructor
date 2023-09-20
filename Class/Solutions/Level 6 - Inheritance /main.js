@@ -253,3 +253,19 @@ class Laptop extends Electronics {
 const laptop1 = new Laptop("Lenovo", "16gb")
 console.log(laptop1);
 
+// Exercise 19 
+class Building {
+    constructor(name) {
+        this.name = name;
+    }
+}
+
+class OfficeBuilding extends Building {
+    constructor(name, numberOfFloors) {
+        super(name)
+        this.numberOfFloors = numberOfFloors;
+    }
+}
+
+const officeBuilding1 = new OfficeBuilding("Tower A", 10);
+console.log(officeBuilding1);
