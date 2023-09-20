@@ -85,4 +85,4 @@
 > Car {make: "Tesla", model: "CyperTruck", year: 2021, color: "Silver"} 
 
 // Exercise 8
-> 
+> Bike {make: "Toyota", model: "Mountain", type: "BMX"}

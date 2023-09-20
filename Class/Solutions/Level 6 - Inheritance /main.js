@@ -103,3 +103,13 @@ const car1 = new Car("Tesla", "CyperTruck", 2021, "Silver")
 console.log(car1);
 
 // Exercise 8
+class Bike extends Vehicle {
+    constructor(make, model, type) {
+        super(make, model)
+        this.type = type;
+    }
+}
+
+const bike1 = new Bike("Toyota", "Mountain", "BMX")
+console.log(bike1);
+
