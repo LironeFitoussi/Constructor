@@ -128,3 +128,13 @@ class Apple extends Fruit {
 
 const fruit1 = new Apple()
 console.log(fruit1);
+
+// Exercise 10
+class Banana extends Fruit {
+    constructor() {
+        super("Banana")
+    }
+}
+
+const fruit2 = new Banana()
+console.log(fruit2);

@@ -89,3 +89,6 @@
 
 // Exercise 9 
 > Apple {name: "Apple"}
+
+// Exercise 10
+> Banana {name: "Banana"}
