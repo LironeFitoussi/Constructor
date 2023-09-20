@@ -74,3 +74,6 @@
 
 // Exercise 4
 > Cat {species: "Fline", color: "Grey"}
+
+// Exercise 5
+> Triangle {name: "Triangle", sides: 3}

@@ -53,3 +53,19 @@ class Cat extends Animal {
 }
 const cat1 = new Cat("Fline", "Grey")
 console.log(cat1);
+
+// Exercise 5
+class Shape {
+    constructor(name, sides) {
+        this.name = name;
+        this.sides = sides;
+    }
+}
+
+class Triangle extends Shape {
+    constructor() {
+        super("Triangle", 3);
+    }
+}
+const triangle1 = new Triangle();
+console.log(triangle1);
