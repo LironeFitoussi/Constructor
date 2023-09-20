@@ -101,3 +101,6 @@
 
 // Exercise 13 
 > City {name: "Israel", population: 250000, location: "Central District"}
+
+// Exercise 14 
+> State {name: "California", capital: "Sacramento", stateCode: "CA"}

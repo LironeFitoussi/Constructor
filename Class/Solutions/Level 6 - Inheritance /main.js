@@ -181,5 +181,17 @@ class City extends Country {
     }
 }
 
-const netanya = new City("Israel", 250000, "Central District")
-console.log(netanya);
+const city1 = new City("New York", 8500000, "Northeastern USA");
+console.log(city1);
+
+// Exercise 14
+class State extends Country {
+    constructor(name, capital, stateCode) {
+      super(name);
+      this.capital = capital;
+      this.stateCode = stateCode;
+    }
+  }
+  
+  const state1 = new State("California", "Sacramento", "CA");
+  console.log(state1);
