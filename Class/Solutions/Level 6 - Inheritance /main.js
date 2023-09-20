@@ -242,6 +242,7 @@ class Television extends Electronics {
 const television1 = new Television("Samsung", "55 Inch", "4k")
 console.log(television1);
 
+// Exericse 18
 class Laptop extends Electronics {
     constructor(brand, ramSize) {
         super(brand)
@@ -251,3 +252,4 @@ class Laptop extends Electronics {
 
 const laptop1 = new Laptop("Lenovo", "16gb")
 console.log(laptop1);
+
