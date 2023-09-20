@@ -138,3 +138,20 @@ class Banana extends Fruit {
 
 const fruit2 = new Banana()
 console.log(fruit2);
+
+// Exercise 11
+class Employee {
+    constructor(name, position) {
+        this.name = name;
+        this.position = position;
+    }
+}
+
+class Manager extends Employee {
+    constructor(name, position, department) {
+        super(name, position)
+        this.department = department;
+    }
+}
+
+const manager1 = new Manager("John Doe", "Manager", "HR");console.log(manager1);

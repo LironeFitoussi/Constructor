@@ -92,3 +92,6 @@
 
 // Exercise 10
 > Banana {name: "Banana"}
+
+// Exercise 11 
+> Manager {name: "John Doe", position: "Manager", department: "HR"}
