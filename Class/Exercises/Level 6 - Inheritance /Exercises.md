@@ -59,7 +59,24 @@
 *Create a class Book with a property title. Extend the class to create a EBook class with an additional property format.*
 
 **Exercise 16**
-*Extend the Book class to create a PaperbackBook class with an additional*
+
+*Extend the Book class to create a PaperbackBook class with an additional property weight.*
+
+**Exercise 17**
+
+*Create a class Electronics with a property brand. Extend the class to create a Television class with additional properties screenSize and resolution.*
+
+**Exercise 18**
+
+*Extend the Electronics class to create a Laptop class with an additional property ramSize.*
+
+**Exercise 19**
+
+*Create a class Building with a property name. Extend the class to create an OfficeBuilding class with an additional property numberOfFloors.*
+
+**Exercise 20**
+
+*Extend the Building class to create a ResidentialBuilding class with additional properties apartmentCount and hasParking.*
 
 ---
 
