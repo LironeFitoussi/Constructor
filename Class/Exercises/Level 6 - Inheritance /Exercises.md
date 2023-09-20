@@ -71,3 +71,6 @@
 
 // Exercise 3
 > Dog {species: "Canien", breed: "Golden Retriver", sound: "Woof"}
+
+// Exercise 4
+> Cat {species: "Fline", color: "Grey"}

@@ -43,3 +43,13 @@ class Dog extends Animal{
 
 const dog1 = new Dog("Canien", "Golden Retriver", "Woof")
 console.log(dog1);
+
+// Exercise 4
+class Cat extends Animal {
+    constructor(species, color) {
+        super(species)
+        this.color = color
+    }
+}
+const cat1 = new Cat("Fline", "Grey")
+console.log(cat1);
