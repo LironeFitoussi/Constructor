@@ -155,3 +155,13 @@ class Manager extends Employee {
 }
 
 const manager1 = new Manager("John Doe", "Manager", "HR");console.log(manager1);
+
+// Exercise 12 
+class Developer extends Employee {
+    constructor(name, position, programmingLanguage) {
+        super(name, position)
+        this.programmingLanguage = programmingLanguage;
+    }
+}
+const developer1 = new Developer("Lirone", "Full-Stack Developer", "HTML, CSS, JS");
+console.log(developer1);

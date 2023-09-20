@@ -95,3 +95,9 @@
 
 // Exercise 11 
 > Manager {name: "John Doe", position: "Manager", department: "HR"}
+
+// Exercise 12 
+> Developer {name: "Lirone", position: "Full-Stack Developer", programmingLanguage: "HTML, CSS, JS"}
+
+// Exercise 13 
+> 
