@@ -165,3 +165,21 @@ class Developer extends Employee {
 }
 const developer1 = new Developer("Lirone", "Full-Stack Developer", "HTML, CSS, JS");
 console.log(developer1);
+
+//  Exercise 13 
+class Country {
+    constructor(name) {
+        this.name = name ;
+    }
+}
+
+class City extends Country {
+    constructor(name, population, location) {
+        super(name);
+        this.population = population;
+        this.location = location;
+    }
+}
+
+const netanya = new City("Israel", 250000, "Central District")
+console.log(netanya);

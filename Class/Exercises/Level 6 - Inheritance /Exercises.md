@@ -100,4 +100,4 @@
 > Developer {name: "Lirone", position: "Full-Stack Developer", programmingLanguage: "HTML, CSS, JS"}
 
 // Exercise 13 
-> 
+> City {name: "Israel", population: 250000, location: "Central District"}
