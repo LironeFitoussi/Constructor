@@ -269,3 +269,15 @@ class OfficeBuilding extends Building {
 
 const officeBuilding1 = new OfficeBuilding("Tower A", 10);
 console.log(officeBuilding1);
+
+// Exercise 20
+class ResidentialBuilding extends Building {
+    constructor(name, apartmentCount, hasParking) {
+        super(name);
+        this.apartmentCount = apartmentCount;
+        this.hasParking = hasParking
+    }
+}
+
+const residentialBuilding1 = new ResidentialBuilding("Apartment Complex", 100, true);
+console.log(residentialBuilding1);

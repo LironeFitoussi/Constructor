@@ -136,3 +136,6 @@
 
 // Exercise 19 
 > OfficeBuilding {name: "Tower A", numberOfFloors: 10}
+
+// Exercise 20
+> ResidentialBuilding {name: "Apartment Complex", apartmentCount: 100, hasParking: true} 
