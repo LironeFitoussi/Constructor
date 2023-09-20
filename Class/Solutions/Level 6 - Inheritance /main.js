@@ -113,3 +113,18 @@ class Bike extends Vehicle {
 const bike1 = new Bike("Toyota", "Mountain", "BMX")
 console.log(bike1);
 
+// Exercise 9
+class Fruit {
+    constructor(name) {
+        this.name = name;
+    }
+}
+
+class Apple extends Fruit {
+    constructor() {
+        super("Apple")
+    }
+}
+
+const fruit1 = new Apple()
+console.log(fruit1);

@@ -86,3 +86,6 @@
 
 // Exercise 8
 > Bike {make: "Toyota", model: "Mountain", type: "BMX"}
+
+// Exercise 9 
+> Apple {name: "Apple"}
