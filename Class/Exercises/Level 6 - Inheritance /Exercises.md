@@ -123,4 +123,7 @@
 > State {name: "California", capital: "Sacramento", stateCode: "CA"}
 
 // Exercise 15 
-> EBook {title: "Introduction to JavaScript", format: "PDF"} (main.js, line 214)
+> EBook {title: "Introduction to JavaScript", format: "PDF"}
+
+// Exercise 16 
+> PaperbackBook {title: "The Catcher in the Rye", weight: "400 grams"}

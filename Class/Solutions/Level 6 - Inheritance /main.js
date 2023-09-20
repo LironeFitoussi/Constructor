@@ -212,3 +212,14 @@ class EBook extends Book {
 
 const ebook1 = new EBook("Introduction to JavaScript", "PDF");
 console.log(ebook1);
+
+// Exercise 16
+class PaperbackBook extends Book {
+    constructor(title, weight) {
+        super(title);
+        this.weight = weight;
+    }
+}
+
+const paperback1 = new PaperbackBook("The Catcher in the Rye", "400 grams");
+console.log(paperback1);
