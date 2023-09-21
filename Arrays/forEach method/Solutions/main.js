@@ -15,3 +15,24 @@ numbers1.forEach(num => console.log(num));
 const names2 = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
 names2.forEach(name => console.log(name))
+
+// Exercise 3
+//? Print the squares of the numbers in the array using .forEach().
+//! const numbers3 = [2, 3, 5, 7, 11];
+
+const numbers3 = [2, 3, 5, 7, 11];
+
+numbers3.forEach(num => console.log(num*num))
+
+// Exercise 4
+//? Print the lengths of the words in the array using .forEach().
+//! const words4 = ["apple", "banana", "cherry", "date", "elderberry"];
+
+const words4 = ["apple", "banana", "cherry", "date", "elderberry"];
+
+// Exercise 5
+const numbers5 = [2, 4, 7, 10, 15];
+numbers5.forEach((num) => {
+    let isEven = num % 2 === 0
+    console.log(`${num} ${isEven? "is an even number": "is an odd number"}`)
+});
