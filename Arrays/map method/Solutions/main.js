@@ -19,7 +19,14 @@ const added5Arr3 = arr3.map(num => num+5)
 console.log(added5Arr3);
 
 // Exercise 4
+//? Use map to square each element in arr4
+const arr4 = [5, 10, 15];
+const squareArr4 = arr4.map(num => num*num)
+console.log(squareArr4);
+
 // Exercise 5
+//? Use map to divide each element in arr5 by 2
+const arr5 = [2, 4, 6];
 // Exercise 6
 // Exercise 7
 // Exercise 8
