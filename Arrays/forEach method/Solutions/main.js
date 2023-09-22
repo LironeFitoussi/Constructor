@@ -69,3 +69,11 @@ numbers10.forEach((num) => {
     const isEven = num % 2 === 0
     console.log(`${num}: ${isEven? "Even": "Odd"}`)
 })
+
+// Exercise 11
+//? Print the squares of the numbers in the array using .forEach().
+const numbers11 = [2, 3, 5, 7, 11];
+numbers11.forEach((num) =>
+    console.log(num*num)
+)
+
