@@ -75,4 +75,5 @@ const arr18 = [2, 4, 6, 8];
 const arr19 = ['JavaScript', 'Python', 'Java'];
 
 *Exercise 20*
-> Use map to calculate the double factorial of
+> Use the .map() method to calculate the double factorial of a given number.
+const numbers20 = [1, 2, 3, 4, 5];
