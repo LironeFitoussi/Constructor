@@ -12,8 +12,12 @@ const arr2 = ['apple', 'banana', 'cherry'];
 const upperCaseArr2 = arr2.map(fruit => fruit.toUpperCase())
 console.log(upperCaseArr2);
 
-
 // Exercise 3
+//? Use map to add 5 to each element in arr3
+const arr3 = [10, 20, 30];
+const added5Arr3 = arr3.map(num => num+5)
+console.log(added5Arr3);
+
 // Exercise 4
 // Exercise 5
 // Exercise 6
