@@ -52,9 +52,15 @@ const arr9 = ['hello', 'world', 'how', 'are', 'you'];
 const arr9withCount = arr9.map((word) => `${word} : ${word.length} characters`)
 console.log(arr9withCount);
 
-// *Exercise 10*
+// *Exercise 10 - Challenge*
 //? Use map to convert each element in arr10 to a binary string representation
 const arr10 = [0, 1, 2];
+
+const binaryArray = arr10.map((element) => {
+  return element.toString(2);
+});
+
+console.log(binaryArray);
 
 // *Exercise 11*
 //? Use map to calculate the square root of each element in arr11
