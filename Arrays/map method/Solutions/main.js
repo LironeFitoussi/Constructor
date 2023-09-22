@@ -46,10 +46,11 @@ console.log(sqrtOfArr7);
 //? Use map to calculate the cube of each element in arr8
 const arr8 = [1, 3, 5];
 
-
 // *Exercise 9*
 //? Use map to count the number of characters in each element in arr9
 const arr9 = ['hello', 'world', 'how', 'are', 'you'];
+const arr9withCount = arr9.map((word) => `${word} : ${word.length} characters`)
+console.log(arr9withCount);
 
 // *Exercise 10*
 //? Use map to convert each element in arr10 to a binary string representation
