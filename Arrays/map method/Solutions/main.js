@@ -33,6 +33,8 @@ console.log(dividedNum);
 // *Exercise 6*
 //? Use map to extract the first names from the full names in arr6
 const arr6 = ['John Doe', 'Jane Smith', 'Mike Johnson'];
+const arrFirstNames = arr6.map(name => name.split(` `)[0])
+console.log(arrFirstNames);
 
 // *Exercise 7*
 //? Use map to calculate the square root of each element in arr7
