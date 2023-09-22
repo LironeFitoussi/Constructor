@@ -39,10 +39,13 @@ console.log(arrFirstNames);
 // *Exercise 7*
 //? Use map to calculate the square root of each element in arr7
 const arr7 = [100, 200, 300];
+let sqrtOfArr7 = arr7.map(num => Math. sqrt(num))
+console.log(sqrtOfArr7); 
 
 // *Exercise 8*
 //? Use map to calculate the cube of each element in arr8
 const arr8 = [1, 3, 5];
+
 
 // *Exercise 9*
 //? Use map to count the number of characters in each element in arr9
