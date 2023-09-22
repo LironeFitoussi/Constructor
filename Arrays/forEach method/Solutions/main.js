@@ -62,5 +62,10 @@ words9.forEach(word => reverse9.push(word.split('').reverse().join('')));
 console.log(reverse9);
 
 // Exercise 10
+//? Print "Even" or "Odd" for each number in the array using .forEach().
 
-
+const numbers10 = [2, 4, 7, 10, 15];
+numbers10.forEach((num) => {
+    const isEven = num % 2 === 0
+    console.log(`${num}: ${isEven? "Even": "Odd"}`)
+})
