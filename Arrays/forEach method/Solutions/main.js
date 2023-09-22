@@ -105,4 +105,22 @@ numbers23.forEach((num) => {
 primeNumbers.forEach((num) => console.log(num));
 
 // Exercise 13
+//? Print the objects with a "name" property using .forEach() and .filter().
+let objects24 = [
+  { name: "Alice", age: 25 },
+  { age: 17 },
+  { name: "Charlie", age: 30 },
+  { name: "David" },
+];
+
+const objectsWithName = objects24.filter((item) => item.hasOwnProperty("name"));
+
+objectsWithName.forEach((item) => {
+  console.log(item);
+});
+
 // Exercise 14
+//? Use .forEach() and .filter() to print the numbers divisible by 3 in the array.
+const numbers25 = [9, 12, 7, 18, 15, 22];
+const divBy3Number = numbers25.filter(num => num % 3 === 0)
+divBy3Number.forEach(num => console.log(num))
