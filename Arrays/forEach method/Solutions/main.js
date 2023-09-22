@@ -62,5 +62,22 @@ words9.forEach(word => reverse9.push(word.split('').reverse().join('')));
 console.log(reverse9);
 
 // Exercise 10
-//? Print "Even" or "Odd" for each number in the array using .forEach().
+//? Use .forEach() and .filter() to print the even numbers in the array.
+
+const numbers21 = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers21.filter((number) => number % 2 === 0);
+evenNumbers.forEach((evenNumber) => {
+  console.log(evenNumber);
+});
+
+// Exercise 11
+//? Print the names in the array that contain the letter 'a' using .forEach() and .filter().
+
+const names22 = ["Alice", "Bob", "Charlie", "David", "Eve"];
+const namesWithA = names22.filter(name => name.includes("a"))
+namesWithA.forEach(name => console.log(name))
+
+// Exercise 12
+// Exercise 13
+// Exercise 14
 
