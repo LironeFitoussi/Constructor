@@ -52,3 +52,15 @@ console.log(sumArray);
 
 const fruits8 = ["apple", "banana", "cherry", "date", "elderberry"];
 fruits8.forEach((fruit) => console.log(`${fruit}: [${fruits8.indexOf(fruit)}]`))
+
+// Exercise 9
+//? Print the reverse of each string in the array using .forEach().
+
+const words9 = ["hello", "world", "javascript", "forEach"];
+const reverse9 = new Array;
+words9.forEach(word => reverse9.push(word.split('').reverse().join('')));
+console.log(reverse9);
+
+// Exercise 10
+
+
