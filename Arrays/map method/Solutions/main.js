@@ -71,7 +71,15 @@ console.log(sqrtOfArr11);
 
 // *Exercise 12*
 //? Use map to convert each element in arr12 to a formatted currency string
+
 const arr12 = [1000, 5000, 2000];
+
+const formattedCurrencyArray = arr12.map(amount => {
+  return amount.toLocaleString(undefined, { style: 'currency', currency: 'GBP' });
+});
+
+console.log(formattedCurrencyArray);
+
 
 // *Exercise 13*
 //? Use map to calculate the reciprocal (1/x) of each element in arr13

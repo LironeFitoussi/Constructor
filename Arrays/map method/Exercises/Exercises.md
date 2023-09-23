@@ -43,6 +43,10 @@ const arr10 = [0, 1, 2];
 const arr11 = [4, 9, 16];
 
 *Exercise 12*
+[/Resources/]
+> (https://www.youtube.com/watch?v=T_Se_Z8Ui5I)
+> (https://www.freecodecamp.org/news/how-to-format-number-as-currency-in-javascript-one-line-of-code/)
+
 > Use map to convert each element in arr12 to a formatted currency string
 const arr12 = [1000, 5000, 2000];
 
