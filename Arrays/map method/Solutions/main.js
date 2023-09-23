@@ -120,7 +120,10 @@ console.log(greetArr16);
 
 // *Exercise 17*
 //? Use map to convert each element in arr17 to its corresponding ASCII character
+
 const arr17 = [0, 1, 2, 3];
+const asciiValue = arr17.map(char => char.toString().charCodeAt(0))
+console.log(asciiValue); 
 
 // *Exercise 18*
 //? Use map to calculate the factorial of each element in arr18
