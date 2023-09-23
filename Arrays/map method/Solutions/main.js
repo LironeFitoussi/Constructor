@@ -127,7 +127,16 @@ console.log(asciiValue);
 
 // *Exercise 18*
 //? Use map to calculate the factorial of each element in arr18
+
 const arr18 = [2, 4, 6, 8];
+const arr18Factorial = arr18.map(num => {
+  let factorvalue = 1;
+  for (let i = 1; i < num; i++) {
+    factorvalue *= i
+  }
+  return factorvalue
+})
+console.log(arr18Factorial);
 
 // *Exercise 19*
 //? Use map to create an array of lengths for each string in arr19
