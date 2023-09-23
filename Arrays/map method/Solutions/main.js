@@ -64,7 +64,10 @@ console.log(binaryArray);
 
 // *Exercise 11*
 //? Use map to calculate the square root of each element in arr11
+
 const arr11 = [4, 9, 16];
+const sqrtOfArr11 = arr11.map(num => Math.sqrt(num))
+console.log(sqrtOfArr11);
 
 // *Exercise 12*
 //? Use map to convert each element in arr12 to a formatted currency string
