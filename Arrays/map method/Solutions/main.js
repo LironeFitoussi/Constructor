@@ -101,6 +101,7 @@ console.log(cbrtOfArr14);
 
 // *Exercise 15*
 //? Use map to create an array of objects with {index, value} for each element in arr1
+
 const arr15 = ['apple', 'banana', 'cherry'];
 const objOfarr15 = arr15.map((item, index) => {
   return {
@@ -112,7 +113,10 @@ console.log(objOfarr15);
 
 // *Exercise 16*
 //? Use map to create an array of greetings like 'Hello, John!', 'Hello, Jane!', 'Hello, Mike!'
+
 const arr16 = ['John', 'Jane', 'Mike'];
+const greetArr16 = arr16.map(name => `Hello, ${name}!`)
+console.log(greetArr16);
 
 // *Exercise 17*
 //? Use map to convert each element in arr17 to its corresponding ASCII character
