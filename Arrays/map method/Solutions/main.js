@@ -83,7 +83,14 @@ console.log(formattedCurrencyArray);
 
 // *Exercise 13*
 //? Use map to calculate the reciprocal (1/x) of each element in arr13
+
 const arr13 = [5, 10, 15];
+const reciprocalArray = arr13.map(number => {
+  let equalToZero = number !== 0;
+  return equalToZero?1/number: "Cannot divide by zero";
+})
+
+console.log(reciprocalArray);
 
 // *Exercise 14*
 //? Use map to calculate the cube root of each element in arr14
