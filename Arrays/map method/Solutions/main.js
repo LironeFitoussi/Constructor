@@ -100,8 +100,15 @@ const cbrtOfArr14 = arr14.map(num => Math.cbrt(num))
 console.log(cbrtOfArr14);
 
 // *Exercise 15*
-//? Use map to create an array of objects with {index, value} for each element in arr15
+//? Use map to create an array of objects with {index, value} for each element in arr1
 const arr15 = ['apple', 'banana', 'cherry'];
+const objOfarr15 = arr15.map((item, index) => {
+  return {
+    index: index,
+    value: item
+  };
+});
+console.log(objOfarr15);
 
 // *Exercise 16*
 //? Use map to create an array of greetings like 'Hello, John!', 'Hello, Jane!', 'Hello, Mike!'
