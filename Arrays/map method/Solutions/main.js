@@ -140,7 +140,10 @@ console.log(arr18Factorial);
 
 // *Exercise 19*
 //? Use map to create an array of lengths for each string in arr19
+
 const arr19 = ['JavaScript', 'Python', 'Java'];
+const arr19Length = arr19.map(language => language.length)
+console.log(arr19Length);
 
 // *Exercise 20*
 //? Use the .map() method to calculate the double factorial of a given number.
