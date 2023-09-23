@@ -94,7 +94,10 @@ console.log(reciprocalArray);
 
 // *Exercise 14*
 //? Use map to calculate the cube root of each element in arr14
+
 const arr14 = [3, 6, 9];
+const cbrtOfArr14 = arr14.map(num => Math.cbrt(num))
+console.log(cbrtOfArr14);
 
 // *Exercise 15*
 //? Use map to create an array of objects with {index, value} for each element in arr15
