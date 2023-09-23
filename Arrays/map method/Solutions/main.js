@@ -130,12 +130,13 @@ console.log(asciiValue);
 
 const arr18 = [2, 4, 6, 8];
 const arr18Factorial = arr18.map(num => {
-  let factorvalue = 1;
-  for (let i = 1; i < num; i++) {
-    factorvalue *= i
+  if (num === 0 || num === 1)
+    return 1;
+  for (let i = num - 1; i >= 1; i--) {
+    num *= i;
   }
-  return factorvalue
-})
+  return num;
+});
 console.log(arr18Factorial);
 
 // *Exercise 19*
@@ -147,6 +148,17 @@ console.log(arr19Length);
 
 // *Exercise 20*
 //? Use the .map() method to calculate the double factorial of a given number.
+
 const numbers20 = [1, 2, 3, 4, 5];
+const doubleFactorialOfNumbers20 = numbers20.map(num => {
+  if (num === 0 || num === 1)
+    return 1;
+  for (let i = num - 1; i >= 1; i--) {
+    num *= i;
+  }
+  return num*2;
+});
+
+console.log(doubleFactorialOfNumbers20);
 
 
