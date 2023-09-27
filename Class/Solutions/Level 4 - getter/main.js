@@ -115,8 +115,8 @@ class Product {
 
 const product = new Product();
 product.price = 25;
-product.price = -10; // Attempt to set a negative price
-console.log(product.price); // Output: 25
+product.price = -10; 
+console.log(product.price);
 
 // Exercise 7
 class Rectangle {
@@ -131,7 +131,7 @@ class Rectangle {
 }
 
 const rectangle = new Rectangle(5, 10);
-console.log(rectangle.area); // Output: 50
+console.log(rectangle.area); 
 
 // Exercise 8
 class Person1 {
@@ -152,8 +152,8 @@ class Person1 {
 
 const person1 = new Person1();
 person1.age = 30;
-person1.age = -5; // Attempt to set a negative age
-console.log(person1.age); // Output: 30
+person1.age = -5;
+console.log(person1.age);
 
 // Exercise 9
 class Book {
@@ -182,8 +182,8 @@ class Book {
 const book = new Book();
 book.title = "The Great Gatsby";
 book.author = "F. Scott Fitzgerald";
-console.log(book.title); // Output: The Great Gatsby
-console.log(book.author); // Output: F. Scott Fitzgerald
+console.log(book.title); 
+console.log(book.author);
 
 // Exercise 10
 class BankAccount1 {
@@ -203,7 +203,6 @@ class BankAccount1 {
     }
   }
 
-  // Additional method for transactions
   withdraw(amount) {
     if (amount <= this._balance) {
       this._balance -= amount;
@@ -217,10 +216,10 @@ class BankAccount1 {
 }
 
 const account = new BankAccount1("123456", 1000);
-console.log(account.balance); // Output: 1000
+console.log(account.balance); 
 
 account.withdraw(500);
-console.log(account.balance); // Output: 500
+console.log(account.balance);
 
 // Exercise 11
 class Square {
@@ -234,7 +233,7 @@ class Square {
 }
 
 const square = new Square(4);
-console.log(square.area); // Output: 16
+console.log(square.area);
 
 // Exercise 12
 class Person2 {
@@ -251,7 +250,7 @@ class Person2 {
 }
 
 const person3 = new Person2(new Date("1990-01-15"));
-console.log(person.age); // Output: Calculated age based on birthdate
+console.log(person.age);
 
 // Exercise 13
 class Product1 {
@@ -267,7 +266,7 @@ class Product1 {
 }
 
 const product2 = new Product1("Widget", 10, 5);
-console.log(product2.totalPrice); // Output: 50
+console.log(product2.totalPrice);
 
 // Exercise 14
 class Car {
